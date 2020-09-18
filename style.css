@@ -15,14 +15,15 @@ body {
 }
 
 .main-nav {
-  display: flex;
   list-style: none;
   margin: 0;
   font-size: 0.7em;
+  display: inline;
 }
 
 li {
   padding: 20px 30px;
+  float: left;
 }
 
 a {
@@ -30,6 +31,10 @@ a {
   font-size: 1.5em;
   color: white;
   letter-spacing: 0.1em;
+}
+
+.float-right {
+  float: right;
 }
 
 .main-text  {
